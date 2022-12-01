@@ -1,18 +1,22 @@
 package tech.huqi.quicknote.adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.List;
 
 import tech.huqi.quicknote.R;
 import tech.huqi.quicknote.entity.Note;
+
+//import androidx.support.annotation.NonNull;
 
 /**
  * Created by hzhuqi on 2019/4/7
@@ -29,6 +33,7 @@ public class MainPageAdapter2 extends RecyclerView.Adapter<MainPageAdapter2.Main
         mNotes = notes;
     }
 
+    @SuppressLint("LongLogTag")
     @NonNull
     @Override
     public MainPageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

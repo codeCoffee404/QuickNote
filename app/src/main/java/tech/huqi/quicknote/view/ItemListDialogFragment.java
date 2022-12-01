@@ -2,16 +2,17 @@ package tech.huqi.quicknote.view;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.BottomSheetDialogFragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import android.annotation.Nullable;
+import android.recyclerview.widget.LinearLayoutManager;
+import android.recyclerview.widget.RecyclerView;
+import android.support.design.widget.BottomSheetDialogFragment;
 
 import tech.huqi.quicknote.R;
 

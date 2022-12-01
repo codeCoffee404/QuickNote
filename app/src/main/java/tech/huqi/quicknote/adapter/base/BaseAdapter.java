@@ -1,8 +1,10 @@
 package tech.huqi.quicknote.adapter.base;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+//import androidx.support.annotation.NonNull;
+import android.annotation.NonNull;
+import android.recyclerview.widget.RecyclerView;
+//import androidx.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +13,7 @@ import java.util.List;
 
 
 /**
- * Created by hzhuqi on 2019/4/10
+
  */
 
 /**
